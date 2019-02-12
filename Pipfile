@@ -10,5 +10,7 @@ toolz = "*"
 "s3contents" = "*"
 ipython = "*"
 matplotlib = "*"
+requests = "*"
+pandas = "*"
 
 [dev-packages]
