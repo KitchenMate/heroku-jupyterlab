@@ -12,5 +12,6 @@ ipython = "*"
 matplotlib = "*"
 requests = "*"
 pandas = "*"
+fileupload = "*"
 
 [dev-packages]
