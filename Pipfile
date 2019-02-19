@@ -16,5 +16,7 @@ fileupload = "*"
 sqlalchemy = "*"
 "psycopg2" = "*"
 ipywidgets = "*"
+"beautifulsoup4" = "*"
+pydash = "*"
 
 [dev-packages]
