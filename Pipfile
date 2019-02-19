@@ -15,5 +15,6 @@ pandas = "*"
 fileupload = "*"
 sqlalchemy = "*"
 "psycopg2" = "*"
+ipywidgets = "*"
 
 [dev-packages]
