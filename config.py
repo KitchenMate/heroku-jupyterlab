@@ -23,7 +23,7 @@ c.S3ContentsManager.secret_access_key = AWS_SECRET_ACCESS_KEY
 c.S3ContentsManager.bucket = S3_BUCKET_NAME
 
 c.NotebookApp.token = ''
-c.NotebookApp.password = 123
+c.NotebookApp.password = '123'
 
 
 # Configuration file for jupyterhub.
