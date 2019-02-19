@@ -14,6 +14,7 @@ except (NameError, KeyError):
     S3_BUCKET_NAME = os.environ['BUCKETEER_BUCKET_NAME']
 
 PASSWORD = os.environ.get('PASSWORD', '')
+print("PASSWORD::::: ", PASSWORD)
 
 # c = get_config()
 c.NotebookApp.contents_manager_class = S3ContentsManager
@@ -22,7 +23,7 @@ c.S3ContentsManager.secret_access_key = AWS_SECRET_ACCESS_KEY
 c.S3ContentsManager.bucket = S3_BUCKET_NAME
 
 c.NotebookApp.token = ''
-c.NotebookApp.password = PASSWORD
+c.NotebookApp.password = 123
 
 
 # Configuration file for jupyterhub.
