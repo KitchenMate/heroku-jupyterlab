@@ -5,6 +5,8 @@
 Open a terminal tab and type the following:
 ```sh
 pipenv install <PACKAGE_NAME>
+# you may need to run pip install --upgrade pip
+# before this command will work
 ```
 Ensure you update the Pipenv and Pipenv.lock files
 ```sh
