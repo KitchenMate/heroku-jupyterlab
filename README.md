@@ -1,24 +1,23 @@
-# JupyterLab on Heroku + Amazon S3
-
-This application runs a JupyterLab instance on Heroku, backed by Amazon S3.
-
-Deploy to Heroku
-----------------
-
-You can deploy this application to Heroku with this simple button:
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+**Do not change password in heroku env (But use to login)**
 
 
-Environment Variables
----------------------
-
-The following environment variables are expected to be set:
-
-- `AWS_ACCESS_KEY_ID`
-- `AWS_SECRET_ACCESS_KEY`
-- `S3_BUCKET_NAME`
-
-Optional:
-
-- `PASSWORD`
+## To install a new python dependency:
+Open a terminal tab and type the following:
+```sh
+pipenv install <PACKAGE_NAME>
+# you may need to run pip install --upgrade pip
+# before this command will work
+```
+Ensure you update the Pipenv and Pipenv.lock files
+```sh
+cat Pipenv
+# Copy contents to local repo
+cat Pipenv.lock
+# Copy contents to local repo
+```
+On your local repo
+```sh
+git add Pipenv Pipenv.lock
+git commit -m "added new python dependency"
+git push origin master
+```
