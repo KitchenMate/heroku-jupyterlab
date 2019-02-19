@@ -50,5 +50,8 @@
     "webpack": "^4.29.5",
     "webpack-cli": "^3.2.3",
     "yarn": "^1.13.0"
+  },
+  "scripts": {
+    "heroku-postbuild": "jupyter labextension install @jupyter-widgets/jupyterlab-manager"
   }
 }
