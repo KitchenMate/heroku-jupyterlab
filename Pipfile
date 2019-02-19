@@ -13,5 +13,7 @@ matplotlib = "*"
 requests = "*"
 pandas = "*"
 fileupload = "*"
+sqlalchemy = "*"
+"psycopg2" = "*"
 
 [dev-packages]

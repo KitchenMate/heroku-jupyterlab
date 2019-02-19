@@ -14,7 +14,6 @@ except (NameError, KeyError):
     S3_BUCKET_NAME = os.environ['BUCKETEER_BUCKET_NAME']
 
 PASSWORD = os.environ.get('PASSWORD', '')
-print("PASSWORD::::: ", PASSWORD)
 
 # c = get_config()
 c.NotebookApp.contents_manager_class = S3ContentsManager
