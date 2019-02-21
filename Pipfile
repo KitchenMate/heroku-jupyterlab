@@ -18,5 +18,6 @@ sqlalchemy = "*"
 ipywidgets = "*"
 "beautifulsoup4" = "*"
 pydash = "*"
+boto = "*"
 
 [dev-packages]
