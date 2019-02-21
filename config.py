@@ -26,7 +26,7 @@ c.NotebookApp.password = 'sha1:082abc44d5f3:d85dfd9b5c053b6a605ba757c40e0e5c3e41
 
 c.LabApp.trust_xheaders = True
 # print("Starting Nginx!")
-# Path('/tmp/app-initialized').touch()
+Path('/tmp/app-initialized').touch()
 
 
 # LabApp.ssl_options=<Dict>
