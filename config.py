@@ -24,7 +24,11 @@ c.S3ContentsManager.bucket = S3_BUCKET_NAME
 c.NotebookApp.token = ''
 c.NotebookApp.password = 'sha1:082abc44d5f3:d85dfd9b5c053b6a605ba757c40e0e5c3e41b693'
 c.NotebookApp.allow_remote_access = True
+c.NotebookApp.allow_origin = '*'
+c.NotebookApp.trust_xheaders = True
 
+c.LabApp.allow_remote_access= True
+c.LabApp.allow_origin= True
 c.LabApp.trust_xheaders = True
 # print("Starting Nginx!")
 Path('/tmp/app-initialized').touch()
