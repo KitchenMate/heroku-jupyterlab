@@ -1,12 +1,12 @@
-# daemon off;
+daemon off;
 
-# worker_processes <%= ENV['NGINX_WORKERS'] || 4 %>;
+worker_processes <%= ENV['NGINX_WORKERS'] || 4 %>;
 
-# events {
-# 	use epoll;
-# 	accept_mutex on;
-# 	worker_connections 1024;
-# }
+events {
+	use epoll;
+	accept_mutex on;
+	worker_connections 1024;
+}
 
 http {
 	# Buffers
