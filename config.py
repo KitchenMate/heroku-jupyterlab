@@ -27,8 +27,8 @@ c.NotebookApp.allow_remote_access = True
 c.NotebookApp.allow_origin = '*'
 c.NotebookApp.trust_xheaders = True
 
-c.LabApp.allow_remote_access= True
-c.LabApp.allow_origin= True
+c.LabApp.allow_remote_access = True
+c.LabApp.allow_origin = '*'
 c.LabApp.trust_xheaders = True
 # print("Starting Nginx!")
 Path('/tmp/app-initialized').touch()
