@@ -1,1 +1,1 @@
-web: jupyter lab --config=./config.py --ip 0.0.0.0 --port $PORT
+web: bin/start-nginx jupyter lab --config=./config.py --ip 0.0.0.0 --port 8888

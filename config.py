@@ -1,5 +1,5 @@
 import os
-
+from pathlib import Path
 from s3contents import S3ContentsManager
 
 try:
@@ -25,6 +25,8 @@ c.NotebookApp.token = ''
 c.NotebookApp.password = 'sha1:082abc44d5f3:d85dfd9b5c053b6a605ba757c40e0e5c3e41b693'
 
 c.LabApp.trust_xheaders = True
+Path('/tmp/app-initialized').touch()
+
 # LabApp.ssl_options=<Dict>
 #     Default: {}
 #     Supply SSL options for the tornado HTTPServer. See the tornado docs for
