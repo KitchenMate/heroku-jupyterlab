@@ -24,6 +24,14 @@ c.S3ContentsManager.bucket = S3_BUCKET_NAME
 c.NotebookApp.token = ''
 c.NotebookApp.password = 'sha1:082abc44d5f3:d85dfd9b5c053b6a605ba757c40e0e5c3e41b693'
 
+c.LabApp.trust_xheaders = True
+# LabApp.ssl_options=<Dict>
+#     Default: {}
+#     Supply SSL options for the tornado HTTPServer. See the tornado docs for
+#     details.
+# LabApp.terminado_settings=<Dict>
+#     Default: {}
+#     Supply overrides for terminado. Currently only supports "shell_command".
 
 # Configuration file for jupyterhub.
 
