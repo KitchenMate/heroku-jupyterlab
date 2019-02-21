@@ -42,7 +42,7 @@ http {
 		listen <%= ENV["PORT"] %>;
 		server_name _;
 
-    root /app;
+    root /app/.heroku/python/share/jupyter;
 
 		location = / {
 			proxy_pass http://127.0.0.1:3000;
