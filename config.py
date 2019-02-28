@@ -21,7 +21,7 @@ c.S3ContentsManager.access_key_id = AWS_ACCESS_KEY_ID
 c.S3ContentsManager.secret_access_key = AWS_SECRET_ACCESS_KEY
 c.S3ContentsManager.bucket = S3_BUCKET_NAME
 
-c.NotebookApp.token = ''
+c.NotebookApp.token = 'rg#fVX3EPNEw2o%3rfdnx'
 c.NotebookApp.password = 'sha1:082abc44d5f3:d85dfd9b5c053b6a605ba757c40e0e5c3e41b693'
 c.NotebookApp.allow_remote_access = True
 c.NotebookApp.allow_origin = '*'
