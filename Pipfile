@@ -19,5 +19,6 @@ ipywidgets = "*"
 "beautifulsoup4" = "*"
 pydash = "*"
 boto = "*"
+sklearn = "*"
 
 [dev-packages]
