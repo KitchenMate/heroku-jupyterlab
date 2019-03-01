@@ -20,5 +20,6 @@ ipywidgets = "*"
 pydash = "*"
 boto = "*"
 sklearn = "*"
+plotly = "*"
 
 [dev-packages]
