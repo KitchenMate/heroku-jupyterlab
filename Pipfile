@@ -22,5 +22,6 @@ boto = "*"
 sklearn = "*"
 lightgbm = "*"
 seaborn = "*"
+tensorflow = "*"
 
 [dev-packages]
